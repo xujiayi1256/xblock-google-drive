@@ -33,7 +33,7 @@ setup(
         'xblock-utils',
     ],
     dependency_links=[
-        'http://github.com/edx-solutions/xblock-utils/tarball/master#egg=xblock-utils',
+        'git+https://github.com/Learningtribes/xblock-utils.git@hawthorn#egg=xblock-utils',
     ],
     entry_points={
         'xblock.v1': [
